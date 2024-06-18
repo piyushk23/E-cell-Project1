@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+.navbar{
+    height: 50px;
+    background-color: #C7CEDB;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+
+.help{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+.logo{
+    margin-left: 3px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid black;
+}
+.navtrackorder{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.trackorder{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navcancelorder{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.cancelorder{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbulk{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.bulk{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.navfree{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.ship{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navav{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.av{
+    margin-left: 3px;
+    font-size: 14px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menubar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #EDD9A3;
+}
+.title{
+    font-size: 35px;
+    margin-left: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+}
+.subtit{
+    margin-left: 10px;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration:underline;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 110px;
+    border-radius: 5px;
+    background-color: coral;
+   
+    
+}
+.textsearch{
+    font-size: larger;
+    width: 100%;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menother{
+    display: flex;
+    margin-left: 100px;
+    font-size: 25px;
+}
+.wishlogo{
+    margin-left:50px ;
+}
+.middle{
+    height: 80px;
+    background-color: #B5CA8D;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sel{
+   margin-left: 20px;
+   width: 120px;
+   font-size: 1rem;
+}
+.op1,.op2,.op3,.op4,.op5 {
+    margin-left: 25px;
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+.herosection{
+    background-image: url("https://images.pexels.com/photos/6344231/pexels-photo-6344231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.heromssg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85 rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.heromssg a{
+    color: #007185;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 300px;
+    margin-top: 1rem;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-image1{
+    background-image: url("https://m.media-amazon.com/images/I/814VZlo2tXL._AC_UF1000,1000_QL80_.jpg");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 250px;
+   
+}
+.box-content p{
+    color: #007185;
+}
+.box-image2{
+    background-image: url("https://m.media-amazon.com/images/I/61Ovjj63-oL._AC_UF1000,1000_QL80_.jpg");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 250px;
+}
+.box-image3{
+    background-image: url("https://media.springernature.com/full/springer-static/cover-hires/book/978-3-031-11166-2");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 250px;
+}
+.box-image4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGa-tZ-dy4yNtYVPk3JLykLVApQy7TKPXWoQ&s");
+    background-size: contain;
+    background-repeat:no-repeat ;
+    height: 250px;
+}
+.footer{
+    margin-top: 15px;
+}
+.panel{
+    background-color: #007185;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    
+}
+.end{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Id1{
+    font-size: 1.2rem;
+}
+.end:hover{
+    color: #F07167;
+    font-size: 2rem;
+}
+.id1logo{
+    margin-left: 5px;
+}
+
+
+@media (max-width: 1200px) {
+    .navsearch {
+        margin-left: 20px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .title {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    .subtit {
+        margin-left: 5px;
+        font-size: 16px;
+    }
+
+    .menother {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .wishlogo {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar, .menubar, .middle, .section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navsearch, .menother {
+        margin-left: 0;
+    }
+
+    .navtrackorder, .navcancelorder, .navbulk, .navfree, .navav {
+        margin-left: 10px;
+    }
+
+    .box {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .subtit {
+        font-size: 14px;
+    }
+
+    .navtrackorder, .navcancelorder, .navbulk, .navfree, .navav {
+        margin-left: 0;
+    }
+
+    .box {
+        width: 100%;
+        margin: 1%;
+    }
+
+    .herosection {
+        height: 400px;
+    }
+
+    .heromssg {
+        font-size: 0.7rem;
+        width: 90%;
+    }
+
+    .op1, .op2, .op3, .op4, .op5 {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
